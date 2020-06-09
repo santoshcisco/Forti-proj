@@ -1,0 +1,13 @@
+- name: backup system config
+    fortiosconfig:
+     config: "system config backup"
+     action: "backup"
+     host:  "{{ host }}"
+     username: "{{ username }}"
+     password: "{{ password }}"
+     vdom:  "{{ vdom }}"
+     https: False
+     ssl_verify: False
+     config_parameters:
+      filename: "backup_config_001"
+      scope: "global"

@@ -1,0 +1,10 @@
+---
+# defaults file for fortigate
+user:
+  - user:
+    name: "Tuser1"
+    type: "password"
+    passwd: "User1234"
+    email_to: ""
+    passwd_policy: ""
+    authtimeout: "5"

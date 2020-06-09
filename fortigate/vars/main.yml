@@ -1,0 +1,7 @@
+---
+# vars file for fortigate
+host: "114.143.105.126"
+username: "ztest"
+password: "Zabtest123"
+vdom: "root"
+ssl_verify: "False"
